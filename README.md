@@ -14,7 +14,7 @@ requête :
     
     "title": "monarticle",
     "description": "madescription",
-    "date": "12/12/2022",
+    "dateCreation": "12/12/2022",
     "categorieId":"034447bfcg5353",
     "auteurId":"948848fge56777",
     "tags":["sports","football","coupe du monde"]
@@ -40,7 +40,7 @@ requête :
     
     "title": "monarticle",
     "description": "madescription",
-    "date": "12/12/2022",
+    "dateCreation": "12/12/2022",
     "categorieId":"034447bfcg5353",
     "auteurId":"948848fge56777",
     "tags":["sports","football","coupe du monde"]
@@ -67,12 +67,12 @@ réponse succès:
      "_id":"035454646dfc",
     "title": "monarticle",
     "description": "madescription",
-    "date": "12/12/2022",
+    "dateCreation": "12/12/2022",
     "categorie":{"libelle":"ma categorie"},
     "auteur":{"nom": "Jules", "prenoms": "Ilé"},
     "tags":["sports","football","coupe du monde"],
     "commentaires":[
-        {"description":"xxxx",date:"12/12/2022"},
+        {"description":"xxxx",dateCreation:"12/12/2022"}
     ]
  
 }
@@ -107,7 +107,7 @@ réponse error:
 requête : 
 { 
     "description": "mon commentaire",
-    "date": "12/12/2022",
+    "dateCreation": "12/12/2022",
 }
 réponse succès: 
 { 
@@ -130,7 +130,7 @@ réponse succès:
      "_id":"766777fcdg",
      "title": "monarticle",
      "description": "madescription",
-     "date": "12/12/2022",
+     "dateCreation": "12/12/2022",
      "categorie":{"libelle":"ma categorie"},
      "auteur":{"nom": "Jules", "prenoms": "Ilé"},
      "tags":["sports","football","coupe du monde"],
@@ -139,7 +139,7 @@ réponse succès:
       "_id":"766777fcdi",
      "title": "monarticle 1",
      "description": "madescription essai",
-     "date": "12/12/2022",
+     "dateCreation": "12/12/2022",
      "categorie":{"libelle":"ma categorie"},
      "auteur":{"nom": "Jules", "prenoms": "Ilé"},
      "tags":["sports","football","coupe du monde"],
