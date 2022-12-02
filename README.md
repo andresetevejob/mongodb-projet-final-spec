@@ -20,12 +20,12 @@ NB: Les valeurs des objets json contenue dans les requêtes sont à titre d'exem
     "tags":["sports","football","coupe du monde"]
  
  }
- reponse succès: 
- { 
+réponse succès: 
+{ 
     "message": "Article crée",
     "id": "035454646dfc",
- }
-reponse error: 
+}
+réponse error: 
 { 
     "message": "Article non crée, une erreur est survenue lors de la création",
 }
@@ -35,8 +35,8 @@ reponse error:
 ````
  url :  /api/article/035454646dfc
  method: PUT
- requête : 
- { 
+requête : 
+{ 
     
     "title": "monarticle",
     "description": "madescription",
@@ -45,16 +45,16 @@ reponse error:
     "auteurId":"948848fge56777",
     "tags":["sports","football","coupe du monde"]
  
- }
- reponse succès: 
- { 
+}
+réponse succès: 
+{ 
     "message": "Article modifié",
     "id": "035454646dfc",
- }
- reponse error: 
- { 
+}
+réponse error: 
+{ 
     "message": "Article non modifié, une erreur est survenue lors de la création",
- }
+}
 `````
 3 - détails d'un article
 
@@ -62,7 +62,7 @@ reponse error:
  url :  /api/article/035454646dfc
  method: GET
 
-reponse succès: 
+réponse succès: 
 { 
      "_id":"035454646dfc",
     "title": "monarticle",
@@ -75,11 +75,11 @@ reponse succès:
         {"description":"xxxx",date:"12/12/2022"},
     ]
  
- }
- reponse error: 
- { 
+}
+réponse error: 
+{ 
     "message": "L'article n'a pu être recupéré",
- }
+}
 
 
 ```````
@@ -89,14 +89,14 @@ reponse succès:
  url :  /api/article/035454646dfc
  method: DELETE
 
- reponse succès: 
+réponse succès: 
 { 
     "message": "L'article 035454646dfc a été supprimé",
 }
-reponse error: 
- { 
+réponse error: 
+{ 
     "message": "L'article n'a pu être supprimé",
- }
+}
 `````
 
  5 - ajout de commentaire
@@ -104,16 +104,16 @@ reponse error:
 ````
  url :  /api/article/035454646dfc/comment
  method: POST
- requête : 
- { 
+requête : 
+{ 
     "description": "mon commentaire",
     "date": "12/12/2022",
- }
-reponse succès: 
+}
+réponse succès: 
 { 
     "message": "Votre commentaire a été ajouté",
 }
-reponse error: 
+réponse error: 
 { 
     "message": "Votre commentaire n'a pu être ajouté,une erreur est survenue",
 }
@@ -124,7 +124,7 @@ reponse error:
 ````
  url :  /api/articles/
  method: GET
-reponse succès: 
+réponse succès: 
 [
     { 
      "_id":"766777fcdg",
@@ -144,8 +144,8 @@ reponse succès:
      "auteur":{"nom": "Jules", "prenoms": "Ilé"},
      "tags":["sports","football","coupe du monde"],
     }
- ]
-reponse error: 
+]
+réponse error: 
 { 
     "message": "La liste des articles n'a pu être recupérée",
 }
@@ -155,9 +155,9 @@ reponse error:
 5 - Liste des categories
 
 ````
- url :  /api/categories/
- method: GET
-reponse succès: 
+url :  /api/categories/
+method: GET
+réponse succès: 
 [
     { 
      "_id":"766777sdfcdg",
@@ -167,8 +167,8 @@ reponse succès:
       "_id":"7667dd77fcdi",
      "title": "monarticle 1",
     }
- ]
-reponse error: 
+]
+réponse error: 
 { 
     "message": "La liste des categories n'a pu être recupérée",
 }
@@ -180,7 +180,7 @@ reponse error:
 ````
  url :  /api/auteurs/
  method: GET
-reponse succès: 
+réponse succès: 
 [
     { 
       "_id":"766777sdfcdga",
@@ -192,8 +192,8 @@ reponse succès:
       "nom": "monnom1",
       "prenom": "monprenom1",
     }
- ]
-reponse error: 
+]
+réponse error: 
 { 
     "message": "La liste des auteurs n'a pu être recupérée",
 }
