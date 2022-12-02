@@ -7,10 +7,10 @@ NB: Les valeurs des objets json contenues dans les requêtes sont à titre d'exe
 1 - creation d'un article
 
 ````
- url :  /api/article/
- method: POST
- requête : 
- { 
+url :  /api/article/
+method: POST
+requête : 
+{ 
     
     "title": "monarticle",
     "description": "madescription",
@@ -19,7 +19,7 @@ NB: Les valeurs des objets json contenues dans les requêtes sont à titre d'exe
     "auteurId":"948848fge56777",
     "tags":["sports","football","coupe du monde"]
  
- }
+}
 réponse succès: 
 { 
     "message": "Article crée",
