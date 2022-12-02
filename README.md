@@ -1,7 +1,7 @@
 # mongodb-projet-final-spec
 
 
-NB: Les valeurs des objets json contenue dans les requêtes sont à titre d'exemple.
+NB: Les valeurs des objets json contenues dans les requêtes sont à titre d'exemple.
 ## Description des api
 
 1 - creation d'un article
